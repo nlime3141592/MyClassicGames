@@ -1,0 +1,16 @@
+C:\Programming\Csharp\MyClassicGames\obj\Debug\net5.0\MyClassicGames.csproj.AssemblyReference.cache
+C:\Programming\Csharp\MyClassicGames\obj\Debug\net5.0\MyClassicGames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Csharp\MyClassicGames\obj\Debug\net5.0\MyClassicGames.AssemblyInfoInputs.cache
+C:\Programming\Csharp\MyClassicGames\obj\Debug\net5.0\MyClassicGames.AssemblyInfo.cs
+C:\Programming\Csharp\MyClassicGames\obj\Debug\net5.0\MyClassicGames.csproj.CoreCompileInputs.cache
+C:\Programming\Csharp\MyClassicGames\bin\Debug\net5.0\MyClassicGames.exe
+C:\Programming\Csharp\MyClassicGames\bin\Debug\net5.0\MyClassicGames.deps.json
+C:\Programming\Csharp\MyClassicGames\bin\Debug\net5.0\MyClassicGames.runtimeconfig.json
+C:\Programming\Csharp\MyClassicGames\bin\Debug\net5.0\MyClassicGames.runtimeconfig.dev.json
+C:\Programming\Csharp\MyClassicGames\bin\Debug\net5.0\MyClassicGames.dll
+C:\Programming\Csharp\MyClassicGames\bin\Debug\net5.0\ref\MyClassicGames.dll
+C:\Programming\Csharp\MyClassicGames\bin\Debug\net5.0\MyClassicGames.pdb
+C:\Programming\Csharp\MyClassicGames\obj\Debug\net5.0\MyClassicGames.dll
+C:\Programming\Csharp\MyClassicGames\obj\Debug\net5.0\ref\MyClassicGames.dll
+C:\Programming\Csharp\MyClassicGames\obj\Debug\net5.0\MyClassicGames.pdb
+C:\Programming\Csharp\MyClassicGames\obj\Debug\net5.0\MyClassicGames.genruntimeconfig.cache
