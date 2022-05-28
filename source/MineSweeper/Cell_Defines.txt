@@ -24,3 +24,17 @@ values of m_board array in MineSweeper_Main.cs:
   18: Closed, Checked, Mine
   19: Deprecated.
   20: Closed, Empty, Not Mine
+
+
+
+reversing check state:
+(checked to unchecked or, unchecked to checked.)
+
+rest = value % 9;
+value = value * ((rest % 2) + 1) / rest;
+
+result:
+  09 -> 18
+  18 -> 09
+  10 -> 20
+  20 -> 10
