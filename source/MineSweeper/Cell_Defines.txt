@@ -1,0 +1,26 @@
+Game Board(Cell) Definition
+
+values of m_board array in MineSweeper_Main.cs:
+  00: Opened, nearby Mines = 0
+  01: Opened, nearby Mines = 1
+  02: Opened, nearby Mines = 2
+  03: Opened, nearby Mines = 3
+  04: Opened, nearby Mines = 4
+  05: Opened, nearby Mines = 5
+  06: Opened, nearby Mines = 6
+  07: Opened, nearby Mines = 7
+  08: Opened, nearby Mines = 8
+
+  09: Closed, Unchecked, Mine
+  10: Closed, Unchecked, Not Mine
+  11: Opened, Mine
+  12: Deprecated.
+  13: Deprecated.
+  14: Deprecated.
+  15: Deprecated.
+  16: Deprecated.
+  17: Deprecated.
+
+  18: Closed, Checked, Mine
+  19: Deprecated.
+  20: Closed, Empty, Not Mine
