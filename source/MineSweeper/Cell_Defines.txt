@@ -31,7 +31,8 @@ reversing check state:
 (checked to unchecked or, unchecked to checked.)
 
 rest = value / 9;
-value = value * ((rest % 2) + 1) / rest;
+if(rest > 0)
+  value = value * ((rest % 2) + 1) / rest;
 
 result:
   09 -> 18
