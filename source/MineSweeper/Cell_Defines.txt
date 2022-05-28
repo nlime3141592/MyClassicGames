@@ -30,7 +30,7 @@ values of m_board array in MineSweeper_Main.cs:
 reversing check state:
 (checked to unchecked or, unchecked to checked.)
 
-rest = value % 9;
+rest = value / 9;
 value = value * ((rest % 2) + 1) / rest;
 
 result:
