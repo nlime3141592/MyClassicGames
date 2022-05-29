@@ -32,7 +32,6 @@ namespace MyClassicGame
                     break;
                 default:
                     throw new Exception("Game Code Error.");
-                    break;
             }
         }
     }
