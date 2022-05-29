@@ -12,7 +12,7 @@ namespace MyClassicGame
             int mines;
 
             Console.WriteLine("Enter the width, height and mines each separated by Spaces.");
-            Console.WriteLine("\tex) 12 10 15");
+            Console.WriteLine("  ex) 12 10 15");
             words = Console.ReadLine().Split(' ');
 
             try
@@ -30,7 +30,7 @@ namespace MyClassicGame
                     MineSweeper instance = new MineSweeper();
                     IMineSweeper implementation = (IMineSweeper)instance;
 
-                    implementation.OnStart(width, height, mines);
+                    implementation.OnClickFlusher(width, height, mines);
                     implementation.PrintBoard(mode);
 
                     GameLoop_MineSweeper(implementation, mode);
@@ -51,7 +51,7 @@ namespace MyClassicGame
             string[] inputs;
             int x, y;
 
-            while(line != "q" && !game.IsGameEnd)
+            while(line != "q")
             {
                 try
                 {

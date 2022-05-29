@@ -5,42 +5,37 @@ namespace MyClassicGame
 {
     public partial class MineSweeper : IMineSweeper
     {
-        bool IMineSweeper.IsGameEnd
+        void IMineSweeper.OnClickFlusher(int width, int height, int mines)
         {
-            get => mb_GameEnd;
-        }
+            mb_GameStart = false;
+            mb_GameEnd = false;
+            m_playTime = 0;
 
-        void IMineSweeper.OnStart(int width, int height, int mines)
-        {
-            if(mb_GameStart ^ mb_GameEnd == true)
-            {
-                Console.WriteLine("Game is already keep going.");
-                return;
-            }
-            else
-            {
-                mb_GameStart = true;
-                mb_GameEnd = false;
-
-                NewGame(width, height, mines);
-                OnGameStart();
-            }
+            NewGame(width, height, mines);
         }
 
         void IMineSweeper.OnClickCell(int x, int y)
         {
-            if(mb_GameStart == false || mb_GameEnd == true)
+            if(mb_GameEnd)
+            {
                 return;
+            }
+
+            if(!mb_GameStart)
+            {
+                mb_GameStart = true;
+                OnGameStart();
+            }
 
             int index;
 
             index = m_GetIndex(x, y);
 
-            if(m_board[index] != 0 && m_board[index] % 9 == 0)
+            if(Math.Abs(m_board[index]) == 2)
             {
-                mb_GameEnd = true;
-
                 OpenAll();
+
+                mb_GameEnd = true;
                 OnGameOver();
             }
             else
